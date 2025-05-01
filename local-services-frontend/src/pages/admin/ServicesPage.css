@@ -1,0 +1,27 @@
+/* Custom styles for the services page */
+.service-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Ensure offcanvas body scrolls properly */
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  /* Style for the image preview container */
+  .image-preview-container {
+    height: 200px;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    overflow: hidden;
+  }

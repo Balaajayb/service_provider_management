@@ -1,0 +1,56 @@
+/* Import Kanit Bold font */
+@font-face {
+  font-family: 'Kanit';
+  src: url('../../src/assets/fonts/Kanit-LightItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Navbar Custom Styling */
+.navbarCustom {
+  background: linear-gradient(145deg, #232333, #2c2c3d) !important; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Apply Kanit font to Navbar brand */
+.kanit {
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  color: white !important; /* Brand text always white */
+}
+
+
+
+/* Dropdown menu background */
+.dropdownMenuCustom {
+  background-color: #29293d !important; 
+  border: 1px solid #444;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); 
+  min-width: 160px;
+}
+
+/* Dropdown toggle */
+.dropdownToggle {
+  background: transparent !important;
+  border: none !important;
+  color: white !important;
+}
+
+/* Dropdown items */
+.dropdownItemCustom {
+  color: white !important;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Profile hover */
+.dropdownItemCustom:hover {
+  background-color: #2ac7ff !important;
+  color: #fff !important;
+}
+
+/* Logout hover */
+.logout:hover {
+  background-color: #dc3545 !important;
+  color: white !important;
+}
